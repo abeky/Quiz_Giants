@@ -6,6 +6,8 @@
 //  Copyright (c) 2015年 LifeisTech. All rights reserved.
 //
 
+
+
 import UIKit
 
 class ResultViewController: UIViewController {

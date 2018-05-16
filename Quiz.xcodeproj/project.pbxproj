@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		13D94D5762FC63380FAB7FC4 /* Pods_QuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79CC5BB690AE286C7A300A6 /* Pods_QuizTests.framework */; };
-		62513B2320A441C700D58DD2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62513B2220A441C600D58DD2 /* icon.png */; };
+		621A90A120A5BDCF000FE10A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 621A90A020A5BDCF000FE10A /* icon.png */; };
+		621A90A320A5BDDC000FE10A /* iconのコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 621A90A220A5BDDC000FE10A /* iconのコピー.png */; };
 		62A3B61B209D4842000325D0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A3B61A209D4842000325D0 /* AddViewController.swift */; };
 		62A3B621209DCB9F000325D0 /* GIANTS_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A3B620209DCB9E000325D0 /* GIANTS_logo.png */; };
 		AF223C441A8C6B9100E3B3B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF223C411A8C6B9100E3B3B9 /* Default-568h@2x.png */; };
@@ -38,7 +39,8 @@
 
 /* Begin PBXFileReference section */
 		2FF1519E4BF56DFDE699924C /* Pods-Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quiz/Pods-Quiz.release.xcconfig"; sourceTree = "<group>"; };
-		62513B2220A441C600D58DD2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		621A90A020A5BDCF000FE10A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../icon.png; sourceTree = "<group>"; };
+		621A90A220A5BDDC000FE10A /* iconのコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconのコピー.png"; sourceTree = "<group>"; };
 		62A3B61A209D4842000325D0 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		62A3B620209DCB9E000325D0 /* GIANTS_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIANTS_logo.png; sourceTree = "<group>"; };
 		680B02823C4C78A5A0805959 /* Pods-QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizTests/Pods-QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,10 +148,11 @@
 			isa = PBXGroup;
 			children = (
 				C7343EA41A89986900D857EA /* Main.storyboard */,
-				62513B2220A441C600D58DD2 /* icon.png */,
 				62A3B61A209D4842000325D0 /* AddViewController.swift */,
 				C7343EA01A89986900D857EA /* AppDelegate.swift */,
 				C7343EC01A89997C00D857EA /* QuizViewController.swift */,
+				621A90A020A5BDCF000FE10A /* icon.png */,
+				621A90A220A5BDDC000FE10A /* iconのコピー.png */,
 				C7FE4DDF1A8A17B9004C530A /* ResultViewController.swift */,
 				62A3B620209DCB9E000325D0 /* GIANTS_logo.png */,
 				C7343EA71A89986900D857EA /* Images.xcassets */,
@@ -263,10 +266,11 @@
 				B101ABFA1B53797400919FB9 /* start.png in Resources */,
 				C7343EAB1A89986900D857EA /* LaunchScreen.xib in Resources */,
 				C7343EA81A89986900D857EA /* Images.xcassets in Resources */,
-				62513B2320A441C700D58DD2 /* icon.png in Resources */,
+				621A90A120A5BDCF000FE10A /* icon.png in Resources */,
 				AF223C451A8C6B9100E3B3B9 /* Default-667h@2x.png in Resources */,
 				62A3B621209DCB9F000325D0 /* GIANTS_logo.png in Resources */,
 				AF223C461A8C6B9100E3B3B9 /* Default-736h@3x.png in Resources */,
+				621A90A320A5BDDC000FE10A /* iconのコピー.png in Resources */,
 				B101ABF91B53797400919FB9 /* false.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,7 +408,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -422,6 +426,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -458,6 +463,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -468,16 +474,16 @@
 			baseConfigurationReference = CE62A41207D9E1C954C5A3FF /* Pods-Quiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = Quiz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.cp.lifeistech.leaders;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.L10shinki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "117c1252-8d76-4626-9b32-fb02ba3b1068";
-				PROVISIONING_PROFILE_SPECIFIER = "L10-KAZUMA-Distribution";
+				PROVISIONING_PROFILE = "545705ca-e998-40ac-9713-2c09d58dc792";
+				PROVISIONING_PROFILE_SPECIFIER = "L10-Kazuma-Development";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -487,16 +493,16 @@
 			baseConfigurationReference = 2FF1519E4BF56DFDE699924C /* Pods-Quiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = Quiz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.cp.lifeistech.leaders;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.L10shinki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "117c1252-8d76-4626-9b32-fb02ba3b1068";
-				PROVISIONING_PROFILE_SPECIFIER = "L10-KAZUMA-Distribution";
+				PROVISIONING_PROFILE = "545705ca-e998-40ac-9713-2c09d58dc792";
+				PROVISIONING_PROFILE_SPECIFIER = "L10-Kazuma-Development";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
